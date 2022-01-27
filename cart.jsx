@@ -5,8 +5,8 @@
 */
 
 const Products = (props) => {
-  const [url, setUrl] = useState("http://localhost:5500/products.json");
-  const [{ data, isLoading, isError }, fetchData] = useDataApi("http://localhost:5500/products.json", []);
+  const [url, setUrl] = useState("http://https://dylanavernon.github.io/shopping-cart/products.json");
+  const [{ data, isLoading, isError }, fetchData] = useDataApi("http://https://dylanavernon.github.io/shopping-cart/products.json", []);
   const [products, setProducts] = React.useState(data);
   const [cart, setCart] = React.useState([]);
   const [total, setTotal] = React.useState(0);
