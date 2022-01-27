@@ -1,0 +1,6 @@
+[
+  { "id": 0, "name": "Apples", "country": "Italy", "cost": 3, "instock": 10, "photo": "images/apple.jpg" },
+  { "id": 1, "name": "Oranges", "country": "Spain", "cost": 4, "instock": 3, "photo": "images/orange.jpg" },
+  { "id": 2, "name": "Beans", "country": "USA", "cost": 2, "instock": 5, "photo": "images/beans.jpg" },
+  { "id": 3, "name": "Cabbage", "country": "USA", "cost": 1, "instock": 8, "photo": "images/cabbage.jpg" }
+]
